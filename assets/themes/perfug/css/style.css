@@ -1,0 +1,147 @@
+#perfug-footer {
+    color: #f7b242;
+    font-family: PerfFontBold;
+}
+
+#source {
+    font-size: 14px;
+}
+
+a {
+    color: #000000;
+}
+
+.logo-alt-color {
+    color: #000000;
+}
+
+.nav {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.nav ul {  
+    padding: 0; margin: 0;
+    text-align: center; /* centrer le texte */ 
+    list-style-type:none; 
+}  
+.nav li {  
+    display: inline;  
+    list-style: none; /* nécessaire pour IE7 */  
+    margin: 0 55px;
+    font-size: 16px;
+}
+
+.nav a {  
+    display:inline-block;  
+    color: #6d6e71;  
+}
+
+.dots {
+    width: 42px;
+    height: 10;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#vision {
+    float: left;
+    width: 47%;
+}
+
+#mission {
+    float: right;
+    width: 47%;
+}
+
+#footer-links {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#sitebody {
+    border-bottom: solid 10px #f7b242;
+    border-top: solid 10px #f7b242;
+}
+
+#footer {
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+#top {
+    height: 155px;
+    width: 940px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#topLogo {
+    margin: 14px 0px 25px 0;
+    float:left;
+}
+
+#topPerfUg {
+    margin-right: 110px;
+    font-size: 30px;
+    float:right;
+    line-height: 200px;
+}
+
+.h2-ending {
+    color: #f7b242;
+    font-family: PerfFontBold;
+}
+
+h2 {
+    font-size: 30px;
+    color: #000000;
+    display: list-item;
+    list-style-image: url(../skin/plume.png);
+    list-style-position: inside;
+    border-bottom: solid 1px #6d6e71;
+    padding-bottom: 15px;
+}
+
+p, ul {
+    line-height: 25px;
+}
+
+#col-manifesto {
+    overflow: hidden;
+}
+
+#content {
+    margin-top: 75px;
+    margin-bottom: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+}
+
+strong {
+    color: #000000;
+}
+
+div {
+    display: block;
+}
+
+body {
+    font-size: 16px;
+    color: #6d6e71;
+}
+
+body, p, h1, h2, h3, h4, table, td, th, ul, ol, textarea, input {
+    font-family: PerfFont;
+}
+
+@font-face {
+    font-family: PerfFont;
+    src: url(../font/akzidenz_grotesk_light.ttf);
+}
+
+@font-face {
+    font-family: PerfFontBold;
+    src: url(../font/akzidenz_grotesk_roman.ttf);
+}
