@@ -44,12 +44,12 @@ a {
     margin-right: auto;
 }
 
-#vision {
+.manifesto-1 {
     float: left;
     width: 47%;
 }
 
-#mission {
+.manifesto-2 {
     float: right;
     width: 47%;
 }
@@ -62,6 +62,7 @@ a {
 #sitebody {
     border-bottom: solid 10px #f7b242;
     border-top: solid 10px #f7b242;
+    padding-top: 20px;
 }
 
 #footer {
@@ -99,15 +100,16 @@ h2 {
     display: list-item;
     list-style-image: url(../skin/plume.png);
     list-style-position: inside;
-    border-bottom: solid 1px #6d6e71;
-    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
 }
 
 p, ul {
     line-height: 25px;
 }
 
-#col-manifesto {
+.col-manifesto {
     overflow: hidden;
 }
 

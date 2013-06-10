@@ -1,6 +1,24 @@
 <div id="static-content">
 
-<div id="def">
+<div id="prochain-evt">
+<h2>Prochain event</h2>
+
+<ul class="posts">
+  {% for post in site.posts %}
+    {% if post.categories[0] == 'annonce-event' %}
+          <li><span><strong>[{{ post.date | date_to_string }}]</strong></span> <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>: {{ post.content | split:'<!-- more -->' | first | replace:'<p>', '' | append:'…' }}</li>
+    {% break %}
+    {% endif %} 
+  {% endfor %}
+</ul>
+
+</div>
+
+<div class="dots">
+<img src="/assets/themes/perfug/skin/3points_separation.png"/>
+</div>
+
+<div id="valeurs">
 <h2>Qu&#8217;est-ce que la performance</h2>
 
 <p>Tentons une définition :</p>
@@ -14,8 +32,8 @@
 <img src="/assets/themes/perfug/skin/3points_separation.png"/>
 </div>
 
-<div id="col-manifesto">
-<div id="vision">
+<div class="col-manifesto">
+<div class="manifesto-1">
 <h2>Notre vision</h2>
 
 <p>Tout utilisateur de système informatique s’attend à recevoir un système</p>
@@ -30,7 +48,7 @@
 <p>Les plus expérimentés savent que le problème est rarement là où on le pensait même avec un flair aiguisé.</p>
 </div>
 
-<div id="mission">
+<div class="manifesto-2">
 <h2>Notre mission</h2>
 
 <p>Offrir un lieu d’échanges informels où toutes les personnes intéressées par l’optimisation et la performance sont les bienvenues quel que soit leur niveau.</p>
@@ -38,6 +56,37 @@
 <p>Echanger nos idées et nos pratiques sur ces sujets pour obtenir plus simplement des systèmes performants.</p>
 
 <p>Faciliter la diffusion des derniers outils et des meilleures techniques pour maîtriser au plus tôt la performance d’un système informatique.</p>
+</div>
+</div>
+
+<div class="dots">
+<img src="/assets/themes/perfug/skin/3points_separation.png"/>
+</div>
+
+<div class="col-manifesto" id="blog-perfug">
+<div class="manifesto-1">
+<h2>Blog PerfUG</h2>
+<ul class="posts">
+  {% for post in site.posts %}
+
+    {% if forloop.index == 5 %}
+        {% break %}
+    {% endif %}    
+
+    <li><span><strong>[{{ post.date | date_to_string }}]</strong></span> <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>: {{ post.content | split:'<!-- more -->' | first | replace:'<p>', '' | append:'…' }}</li>
+  {% endfor %}
+</ul>
+</div>
+
+<div class="manifesto-2" id="twitter-feed">
+<h2>Twitter feed</h2>
+
+<a class="twitter-timeline" href="https://twitter.com/search?q=perfug" data-widget-id="342699748089819136">Tweets concernant "perfug"</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+
+
 </div>
 </div>
  
