@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CR du PerfUG 1: Performance for dummies"
+title: "CR du PerfUG 1 : Performance for dummies"
 description: ""
 category: CR
 tags: []

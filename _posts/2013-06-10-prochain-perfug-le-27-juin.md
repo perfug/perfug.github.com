@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Prochain PerfUG: le 27 juin"
+title: "Prochain PerfUG : le 27 juin"
 description: ""
 category: annonce-event
 tags: []
