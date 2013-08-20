@@ -25,4 +25,4 @@ Enfin, nous terminerons par un pot offert par OCTO Technology.
  
 Animateur: Ludovic Piot (OCTO Technology)
 
-Infos et inscription sur [Eventbrite](http://www.eventbrite.fr/event/6989250035)
+Infos et inscription sur [Eventbrite](http://www.eventbrite.fr/event/7954561307)
