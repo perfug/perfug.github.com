@@ -2,7 +2,7 @@
 layout: post
 title: "CR du PerfUG 1 : Performance for dummies"
 description: ""
-category: CR
+category: compte-rendu
 tags: []
 ---
 {% include JB/setup %}
