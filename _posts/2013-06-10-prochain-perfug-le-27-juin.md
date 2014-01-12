@@ -11,10 +11,9 @@ Pour cette séance nous accueillons AppDynamics qui nous présentera leur outil 
 <!-- more -->
 Historiquement, AppDynamics s'est fait connaître par son adoption par Netflix pour le monitoring des performances de leur (énorme) ferme de serveurs.
 La séance sera en deux temps:
-<ul>
-<li>Présentation générale de l'outil (30 minutes)</li>
-<li>Optimisation d'une application (jClarity) à l'aide d'AppDynamics</li>
-</ul>
+
+* Présentation générale de l'outil (30 minutes)
+* Optimisation d'une application (jClarity) à l'aide d'AppDynamics
 
 Enfin, nous terminerons par un pot offert par OCTO Technology.
  
