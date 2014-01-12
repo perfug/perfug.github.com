@@ -13,13 +13,12 @@ Mais quand on veut faire de la perf avec une appli, mieux vaut savoir de quoi l'
 Ces informations primaires peuvent conduire à réviser ses choix d'architecture technique, ses stratégies applicatives, son capacity planning.
 
 A travers quelques outils ultra-simples, nous allons discerner les performances brutes de notre système (cpu, mémoire, i/o) et voir les leviers dont on dispose pour améliorer les choses.
-<ul>
-<li>requêtes http : apachebench et wrk</li>
-<li>i/o disques : bonnie++ et iozone et sysbench</li>
-<li>ram : bandwidth et sysbench</li>
-<li>cpu : openssl et sysbench</li>
-<li>mysql : sysbench</li>
-</ul>
+
+* requêtes http : apachebench et wrk
+* i/o disques : bonnie++ et iozone et sysbench
+* ram : bandwidth et sysbench
+* cpu : openssl et sysbench
+* mysql : sysbench
 
 Enfin, nous terminerons par un pot offert par OCTO Technology.
  
