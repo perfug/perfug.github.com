@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 29 août"
 description: "Perfs système pour les nuls"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}

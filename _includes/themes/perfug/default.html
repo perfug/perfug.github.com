@@ -4,7 +4,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>{{ page.title }}</title>
 	<meta name="author" content="{{ site.author.name }}">
-	<link href='{{ ASSET_PATH }}/css/style.css' rel="stylesheet" media="all">
+	<link href='{{ ASSET_PATH }}/css/style.css' rel="stylesheet" >
 	<link href="http://feeds.feedburner.com/{{ site.author.feedbaname }}" rel="alternate" title="{{ page.title }}" type="application/atom+xml">
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
 </head>
@@ -26,13 +26,12 @@ PERFORMANCE <span class="logo-alt-color">USER</span> GROUP <span class="logo-alt
 <div id="sitebody">
 
 <div class="nav">
-					<ul>
-						<li id="perfug-footer">{{ page.title }}</li>
-						<li><a href="http://perfug.github.io/" rel="me">home</a></li>
-						<li><a href="#valeurs">nos valeurs</a></li>
-						<li><a href="#blog-perfug">blog</a></li>     
-                                                <li><a href="#blog-perfug">twitter-feed</a></li>                                           
-					</ul>
+        <ul>
+            <li><a href="/" rel="me" class="perfug-footer">Home</a></li>
+            <li><a href="/valeurs.html">nos valeurs</a></li>
+            <li><a href="/events.html">events</a></li>
+            <li><a href="/compte-rendus.html">compte-rendus/supports</a></li>
+        </ul>
 </div>
 
 <div id="content">
@@ -42,12 +41,12 @@ PERFORMANCE <span class="logo-alt-color">USER</span> GROUP <span class="logo-alt
 
 <div id="footer">
 <div class="nav">
-					<ul>
-						<li id="perfug-footer">{{ site.author.name }}</li>
-						<li>{{ site.author.email }}</li>
-						<li><a href="http://github.com/{{ site.author.github }}/" rel="me">github.com/{{ site.author.github }}</a></li>
-						<li><img src="{{ ASSET_PATH }}/skin/twitter-yellow.png" width="15" height="15"/><a href="http://twitter.com/#{{ site.author.twitter }}/" rel="me">#{{ site.author.twitter }}</a></li>
-					</ul>
+        <ul>
+            <li class="perfug-footer">{{ site.author.name }}</li>
+            <li>{{ site.author.email }}</li>
+            <li><a href="http://github.com/{{ site.author.github }}/" rel="me">github.com/{{ site.author.github }}</a></li>
+            <li><img src="{{ ASSET_PATH }}/skin/twitter-yellow.png" width="15" height="15"/><a href="http://twitter.com/#{{ site.author.twitter }}/" rel="me">#{{ site.author.twitter }}</a></li>
+        </ul>
 </div>
 </div><!-- page -->
 

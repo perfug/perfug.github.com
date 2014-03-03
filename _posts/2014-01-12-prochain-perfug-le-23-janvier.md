@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 23 janvier"
 description: "Trouvez les problématiques de performances avec JProfiler"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}

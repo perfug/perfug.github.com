@@ -2,7 +2,7 @@
 layout: post
 title: "PerfUG lab: le 9 octobre"
 description: "Lab au Perfug sur Virtual box"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
