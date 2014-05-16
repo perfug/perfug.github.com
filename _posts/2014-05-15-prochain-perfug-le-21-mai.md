@@ -19,4 +19,4 @@ Comme d'habitude, nous terminerons la soirée avec un pot dans les locaux d'[OCT
 
 Venez nombreux pour célébrer cet évènement !
 
-Inscriptions : http://www.meetup.com/PerfUG/events/182703652/
+Inscriptions : [PerfUG Meetup](http://www.meetup.com/PerfUG/events/182703652/)
