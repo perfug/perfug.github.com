@@ -98,10 +98,18 @@ end # task :page
 
 desc "Launch preview environment"
 task :preview do
-  system "jekyll --watch serve"
+  system "jekyll serve -w"
 end # task :preview
 
-# Public: Alias - Maintains backwards compatability for theme switching.
+desc "Preview for Windows"
+task :runwindows do
+    puts '* Changing the codepage'
+    system "chcp 65001"
+    puts '* Running Jekyll'
+    system "jekyll server -w"
+end
+
+# Public: Alias - Maintains backwards compatibility for theme switching.
 task :switch_theme => "theme:switch"
 
 namespace :theme do
