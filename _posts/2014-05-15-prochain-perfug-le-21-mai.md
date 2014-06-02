@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 21 mai"
 description: "Le PerfUG a 1 an !"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
