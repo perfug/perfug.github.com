@@ -2,7 +2,7 @@
 layout: post
 title: "Retrouvez nous à Devoxx France le 16 avril 2014"
 description: " Université de la performance "
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}

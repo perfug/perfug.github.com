@@ -1,6 +1,17 @@
-#perfug-footer {
+.nav a.perfug-footer {
     color: #f7b242;
     font-family: PerfFontBold;
+}
+
+.address {
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+}
+
+.address p {
+    text-align: center;
+    vertical-align: middle;
 }
 
 #source {
@@ -52,6 +63,12 @@ a {
 .manifesto-2 {
     float: right;
     width: 47%;
+}
+
+.twitter-feed {
+    width: 500px ;
+    margin-left: auto ;
+    margin-right: auto ;
 }
 
 #footer-links {

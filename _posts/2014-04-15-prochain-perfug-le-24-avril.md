@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 24 avril"
 description: " Hadoop et HDFS : Stockage, Requêtage et Performances "
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}

@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 20 mars"
 description: " Une architecture orientée Performances en mode SAAS : Prismic.io "
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}

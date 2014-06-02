@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : 21 mai"
 description: ""
-category: annonce-event 
+category: old-event
 tags: []
 ---
 {% include JB/setup %}

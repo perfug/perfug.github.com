@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 9 octobre"
 description: "Lets use jclarity to tune an application!"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}

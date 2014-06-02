@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 12 décembre"
 description: "Gatling par Stéphane Landelle"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}

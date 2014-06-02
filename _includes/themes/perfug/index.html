@@ -1,107 +1,62 @@
 <div id="static-content">
 
-<div id="prochain-evt">
-<h2>Prochain event</h2>
+    <div >
+        <h2>Prochain event</h2>
 
-<ul class="posts">
-  {% for post in site.posts %}
-    {% if post.categories[0] == 'annonce-event' %}
-          <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>: {{ post.content | split:'<!-- more -->' | first | replace:'<p>', '' | append:'…' }}</li>
-    {% break %}
-    {% endif %} 
-  {% endfor %}
-</ul>
+        <ul class="posts">
+          {% for post in site.posts %}
+            {% if post.categories[0] == 'annonce-event' %}
+                  <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>: {{ post.content | split:'<!-- more -->' | first | replace:'<p>', '' | append:'…' }}</li>
+            {% break %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+    </div>
 
-</div>
+    <div>
+        <h2>Comptes-rendus et supports</h2>
 
-<div id="prochain-evt">
-<h2>Comptes-rendus et supports</h2>
+        <ul class="posts">
+          {% for post in site.posts %}
+            {% if post.categories[0] == 'compte-rendu' %}
+                  <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>: {{ post.content | split:'<!-- more -->' | first | replace:'<p>', '' | append:'…' }}</li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+    </div>
 
-<ul class="posts">
-  {% for post in site.posts %}
-    {% if post.categories[0] == 'compte-rendu' %}
-          <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>: {{ post.content | split:'<!-- more -->' | first | replace:'<p>', '' | append:'…' }}</li>
-    {% endif %} 
-  {% endfor %}
-</ul>
+    <div>
+        <h2>Où et Quand ?</h2>
+        <span>
+        Sauf indications contraires, le Performance User Group Paris a lieu tous les 3ième Jeudi de chaque mois dans les locaux d'<a href="http://www.octo.com/fr" target="_blank">Octo Technology</a> :
+        <br/>
+        </span>
 
-</div>
-
-
-<div class="dots">
-<img src="/assets/themes/perfug/skin/3points_separation.png"/>
-</div>
-
-<div id="valeurs">
-<h2>Qu&#8217;est-ce que la performance</h2>
-
-<p>Tentons une définition :</p>
-<p>« <strong>[Les tests de performance]</strong> vont avoir pour objectif de mesurer les <strong>temps de réponse d&#8217;un système applicatif</strong> en fonction de sa sollicitation.</p>
-<p>Cette définition est donc très proche de celle de test de charge où l&#8217;on mesure le comportement d&#8217;un système en fonction de la <strong>charge d&#8217;utilisateurs simultanés</strong>.</p> 
-<p>Seuls les <strong>tests de charge</strong> permettent de valider correctement une application ou un système avant déploiement, tant en <strong>Qualité de Service</strong> qu&#8217;en <strong>consommation de ressources</strong>. »</p>
-<p><a id='source' href='http://fr.wikipedia.org/wiki/Test_de_performance'>Source Wikipedia</a></p>
-</div>
-
-<div class="dots">
-<img src="/assets/themes/perfug/skin/3points_separation.png"/>
-</div>
-
-<div class="col-manifesto">
-<div class="manifesto-1">
-<h2>Notre vision</h2>
-
-<p>Tout utilisateur de système informatique s’attend à recevoir un système</p>
-<ul>
-    <li>Qui répond de façon stable quelque soit sa charge</li>
-    <li>Qui répondre en un temps cohérent par rapport à l’action qu’il réalise</li>
-</ul>
-<p>Bref un système performant.</p>
-
-<p>Tout développeur ayant mis en production sait apprécier l’effort que cela requiert.</p>
-
-<p>Les plus expérimentés savent que le problème est rarement là où on le pensait même avec un flair aiguisé.</p>
-</div>
-
-<div class="manifesto-2">
-<h2>Notre mission</h2>
-
-<p>Offrir un lieu d’échanges informels où toutes les personnes intéressées par l’optimisation et la performance sont les bienvenues quel que soit leur niveau.</p>
-
-<p>Echanger nos idées et nos pratiques sur ces sujets pour obtenir plus simplement des systèmes performants.</p>
-
-<p>Faciliter la diffusion des derniers outils et des meilleures techniques pour maîtriser au plus tôt la performance d’un système informatique.</p>
-</div>
-</div>
-
-<div class="dots">
-<img src="/assets/themes/perfug/skin/3points_separation.png"/>
-</div>
-
-<div class="col-manifesto" id="blog-perfug">
-<div class="manifesto-1">
-<h2>Blog PerfUG</h2>
-<ul class="posts">
-  {% for post in site.posts %}
-
-    {% if forloop.index == 5 %}
-        {% break %}
-    {% endif %}    
-
-    <li><span><strong>[{{ post.date | date_to_string }}]</strong></span> <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>: {{ post.content | split:'<!-- more -->' | first | replace:'<p>', '' | append:'…' }}</li>
-  {% endfor %}
-</ul>
-</div>
-
-<div class="manifesto-2" id="twitter-feed">
-<h2>Twitter feed</h2>
-
-<a class="twitter-timeline" href="https://twitter.com/search?q=perfug" data-widget-id="369478569186955264">Tweets concernant "perfug"</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        <div class="address">
+            <p>
+                <b>Octo technology</b>
+                <br/>
+                50 avenue des
+                <br/>
+                Champs Elysées
+                <br/>
+                75008 Paris
+            </p>
+            <p>
+                <a href="https://maps.google.fr/maps?q=50+avenue+des+Champs+Elys%C3%A9es+75008+Paris&amp;ie=UTF8&amp;oe=utf-8&amp;client=firefox-a&amp;hnear=50+Avenue+des+Champs+%C3%89lys%C3%A9es,+75008+Paris,+%C3%8Ele-de-France&amp;gl=fr&amp;t=m&amp;z=16" target="_blank">
+                    <img src="http://maps.googleapis.com/maps/api/staticmap?&amp;zoom=15&amp;size=425x280&amp;markers=color:blue%7C50+avenue+des+champs+elysees,+PARIS&amp;sensor=false">
+                </a>
+            </p>
 
 
+        </div>
+    </div>
 
+    <div class="twitter-feed" id="twitter-feed">
+        <h2>Twitter feed</h2>
 
-</div>
-</div>
+        <a class="twitter-timeline" href="https://twitter.com/search?q=perfug" data-widget-id="369478569186955264">Tweets concernant "perfug"</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
  
 </div>
