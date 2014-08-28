@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 26 juin"
 description: "Mesurer directement depuis le CPU : les compteurs de Performance"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
