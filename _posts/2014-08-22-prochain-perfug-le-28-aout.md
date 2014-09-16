@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 28 août"
 description: "Webperfs pour les nuls"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
