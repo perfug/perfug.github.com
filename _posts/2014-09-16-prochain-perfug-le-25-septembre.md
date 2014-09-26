@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Prochain PerfUG : le 25 Septembre"
-description: "Latences basses, hauté débit : Les secrets de la Finance pour avoir des systèmes réactifs"
-category: annonce-event
+description: "Latences basses, haut débit : Les secrets de la Finance pour avoir des systèmes réactifs"
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
