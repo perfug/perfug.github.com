@@ -16,5 +16,3 @@ Les slides sont disponibles ici : [PerfUG #13 - Les secrets de la Finance pour a
 
 
 La vidéo est disponible ici : [PerfUG #13 - Les secrets de la Finance pour avoir des systèmes réactifs](http://tv.octo.com/videos/les-secrets-de-la-finance-pour-avoir-des-systemes-reactifs)
-
-<iframe src="http://tv.octo.com/videos/les-secrets-de-la-finance-pour-avoir-des-systemes-reactifs" width="862" height="1002" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe>
