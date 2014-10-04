@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 16 Octobre"
 description: "LoadRunner par Guillaume Alex"
-category: 
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
