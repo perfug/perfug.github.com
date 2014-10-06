@@ -14,6 +14,7 @@ Vous pourrez également découvrir StormRunner Load, une nouvelle offre SaaS pou
 <!-- more -->
 
 Cette session sera principalement constituée de démonstrations « live » permettant de présenter les principaux modules du logiciel d’HP :
+
 * LoadRunner en quelques mots
 * Comment concevoir des utilisateurs virtuels
 * Comment modéliser des tests de charge
