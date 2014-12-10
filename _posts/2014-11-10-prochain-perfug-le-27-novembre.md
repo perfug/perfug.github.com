@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 27 novembre"
 description: "DynaTrace pour monitorer tous vos problèmes de performance"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
