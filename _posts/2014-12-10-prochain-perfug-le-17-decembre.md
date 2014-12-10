@@ -7,25 +7,25 @@ tags: []
 ---
 {% include JB/setup %}
 
-The Phaser is a Java 7 synchronizer used to coordinate repeated tasks between several threads.  It is very flexible and the interface is easier to use than the older constructs such as CountDownLatch.
+Phaser est une barrière de synchronisation Java 7 utilisée pour orchestrer, entre plusieurs threads, un lot de tâches répétitives. Le système offre une interface plus simple à utiliser que son prédécesseur CountDownLatch.
 <!-- more -->
 
-The StampedLock is a Java 8 optimistic lock mechanism, which allows us to get much better throughput on the reading and even on the writing.
+StampedLock est un mécanisme de verrou apparu en Java 8 qui peut s'apparenter à un ReadWriteLock avec de meilleures performances et un système de lecture optimiste inédit.
 
+ 
 
+Avec Java 7, l'introduction de l'API Phaser offrait un usage plus flexible des existants CountDownLatch et CyclicBarrier.
 
-In Java 7, the Phaser was introduced to give us a more flexible form of CountDownLatch and CyclicBarrier.
+Au cours de cette présentation, nous vous exposerons un certain nombre d'exemples d'utilisation de Phaser dans la communication entre Threads et en quoi cela pourra vous simplifier le code ! En Java 8, nous pouvons profiter de la nouvelle construction StampedLock. Ce nouveau type de verrou permet l'accès concurrent à plusieurs lecteurs de manière plus efficiente qu'un ReadWriteLock grâce à son "mode" optimiste. A travers la présentation, nous vous montrerons comment l'utiliser et dans quels patterns communs ces constructions peuvent s'inscrire.
 
-In this presentation, we will show examples of how Phaser can be used to communicate between threads and how it simplifies your code. A new construct that is available in Java 8 is the StampedLock. This new type of locking mechanism allows readers to access state concurrently, much like the ReadWriteLock. However, it is much more efficient for readers, since you can do so in a more optimistic fashion. In this presentation, we will show how to use it and what some of the common coding patterns are that we can use.
+ 
 
+Heinz Kabutz est auteur du Java Specialists Newsletter où il expose ses recherches autour de nouvelles constructions Java. Il étudie régulièrement les techniques d'écriture de code Java optimisé pour la concurrence et de meilleure qualité. Il publie également des cours Java, plus particulièrement dans le domaine de la programmation concurrente.
 
-
-Heinz Kabutz is the author of the Java Specialists Newsletter, where he researches Java constructs.  He regularly investigates techniques for writing better, faster concurrent Java code.  He has also published courses on Java and specifically on concurrency.
 
 Cette session sera suivie d'un pot dans les locaux d'Octo, puis d'un restaurant aux frais des convives (une invitation Meetup pour le restaurant suivra).
 
 Inscriptions : [PerfUG Meetup](http://www.meetup.com/PerfUG/events/219040577/).
-
 
 
  
