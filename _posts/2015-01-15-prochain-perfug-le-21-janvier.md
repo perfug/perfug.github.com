@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 21 janvier"
 description: "PerfUG : JDBC / JPA / Hibernate : sans maîtrise la puissance n’est rien"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
