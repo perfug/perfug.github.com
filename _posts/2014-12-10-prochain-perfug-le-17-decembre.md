@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 17 décembre"
 description: "PerfUG : Phaser and StampedLock Concurrency Synchronizers"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
