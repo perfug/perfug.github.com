@@ -1,0 +1,16 @@
+---
+configs:
+  use: 'octo'
+  octo:
+    vm:
+      private_ip: '192.168.13.13'
+      hostname: 'vagrant-perfug'
+      port: 4000
+      memory: 4096
+      cpu: 2
+    proxy:
+      enabled: false
+      http: ''
+      https: ''
+      ftp: ''
+      no_proxy: 'localhost,127.0.0.1,*.local.spplusplus.fr'
