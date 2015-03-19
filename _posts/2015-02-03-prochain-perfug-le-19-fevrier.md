@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 19 février"
 description: "PerfUG : Fast Data Pipelines with Kafka"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
