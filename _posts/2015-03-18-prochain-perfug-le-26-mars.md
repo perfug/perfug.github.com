@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 26 mars"
 description: "PerfUG : Riemann, de l’event processing pour devops"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
@@ -16,7 +16,7 @@ Ses applications sont nombreuses, du classique tableau de bord de métriques sys
 
 [Yann Schwartz](https://twitter.com/abolibibelot) expert en systèmes distribués/répartis chez Criteo depuis plus d’un an, animera cette session. Il présente un fort intérêt pour les systèmes distribués et le Big Data où on le retrouve dans de nombreux événements; au scala.io en 2014 pour de l’architecture streaming ou encore des meetups tels que ParisDataGeek et Alt.Net.
 
-Inscriptions : [PerfUG](http://www.meetup.com/PerfUG/events/221230362/)
+Inscriptions : [PerfUG Meetup](http://www.meetup.com/PerfUG/events/221230362/)
 
 
  
