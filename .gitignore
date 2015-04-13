@@ -14,4 +14,4 @@ Gemfile.lock
 
 .idea
 
-**/.vagrant
+.vagrant/
