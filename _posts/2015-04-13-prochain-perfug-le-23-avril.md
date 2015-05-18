@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 23 avril"
 description: "PerfUG : Programmation Lock-Free, les techniques des pros"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
