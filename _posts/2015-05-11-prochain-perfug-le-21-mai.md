@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 21 mai"
 description: "Second anniversaire du PerfUG : Nginx et JVM Off-Heap (Architecture NUMA)"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
