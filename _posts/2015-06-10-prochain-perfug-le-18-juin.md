@@ -1,11 +1,14 @@
 ---
 layout: post
-title: "Prochain PerfUG : le 16 juin"
+title: "Prochain PerfUG : le 18 juin"
 description: "High Performance Java"
 category: annonce-event
 tags: []
 ---
 {% include JB/setup %}
+
+ERRATUM : le PerfUG aura bien lieu le jeudi 18 juin comme indiqué sur Meetup et non pas le 16 comme indiqué précédemment. 
+Toutes nos excuses.
 
 When we think of performance Java isn’t usually up there with the list of languages you’d choose. Ultimately on a CPU we’d start with assembler and C/C++, not Java, then there are GPUs and FPGA cards, still no Java.
 
