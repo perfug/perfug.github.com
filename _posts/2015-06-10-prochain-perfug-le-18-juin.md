@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 18 juin"
 description: "High Performance Java"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
