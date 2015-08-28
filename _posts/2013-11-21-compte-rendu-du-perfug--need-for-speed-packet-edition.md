@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-Vous trouverez ci-dessous le support de présentation de la 5e session présentée par Raphaël Luta:
+Voici le support de présentation de la 5e session présentée par Raphaël Luta:
 <!-- more -->
 
 Les slides sont disponibles ici : [PerfUG #5 - Need For Speed: Packet Edition](http://rluta.github.io/packetstory)

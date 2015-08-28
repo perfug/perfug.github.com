@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-Vous trouverez ci-dessous le support de présentation de la 9e session présentée par [Sofian Djamaa](https://twitter.com/sdjamaa) :
+Voici le support de présentation de la 9e session présentée par [Sofian Djamaa](https://twitter.com/sdjamaa) :
 <!-- more -->
 
 [PerfUG #9 - Compte rendu du PerfUG: Hadoop et HDFS : Stockage, Requêtage et Performances](http://fr.slideshare.net/SofianDjamaa/perfug-hadoop-performances)

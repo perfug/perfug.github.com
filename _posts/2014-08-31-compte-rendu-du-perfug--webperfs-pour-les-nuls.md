@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %} 
 
-Vous trouverez ci-dessous le support de présentation de la 12e session présentée par Timothée Carry:
+Voici le support de présentation de la 12e session présentée par Timothée Carry:
 <!-- more -->
 
 Les slides sont disponibles ici : [PerfUG #12 - Webperfs pour les nuls](http://talks.pixelastic.com/webperfs/#/)

@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-Ci-dessous la présentation du premier PerfUG par Marc Bojoly et Henri Tremblay:
+Voici la présentation du premier PerfUG par Marc Bojoly et Henri Tremblay:
 <!-- more -->
 
 Les slides sont disponibles ici : [PerfUG #1](http://fr.slideshare.net/MarcBojoly/performance-ug1)

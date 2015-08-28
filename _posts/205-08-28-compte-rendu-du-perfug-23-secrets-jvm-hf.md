@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-Ci-dessous la présentation du PerfUG 23 par Philippe Prados :
+Voici la présentation du PerfUG 23 par Philippe Prados :
 <!-- more -->
 
 Les slides sont disponibles ici : [PerfUG #23 - Les secrets de la JVM pour les algorithmes haute fréquence]({{site.url}}/assets/files/PerfUG23.pdf)

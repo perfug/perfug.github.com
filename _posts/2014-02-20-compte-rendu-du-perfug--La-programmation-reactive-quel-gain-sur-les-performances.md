@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-Vous trouverez ci-dessous le support de présentation de la 8e session présentée par Emmanuel Fortin et Philippe Prados :
+Voici le support de présentation de la 8e session présentée par Emmanuel Fortin et Philippe Prados :
 <!-- more -->
 
 Philippe et Emmanuel sont prêts à participer à des brownbaglunches si vous souhaitez parler de la programmation réactive dans votre entreprise.
