@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 27 août"
 description: "Les secrets de la JVM pour les algos à haute fréquence"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
