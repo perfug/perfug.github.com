@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 17 septembre"
 description: "Deep into your native application"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
