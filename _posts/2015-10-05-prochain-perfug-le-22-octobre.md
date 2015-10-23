@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 22 octobre"
 description: "HTTP, The Next Generation"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
