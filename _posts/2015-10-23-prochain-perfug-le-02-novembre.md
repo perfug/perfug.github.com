@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 02 novembre"
 description: "High Performance Images"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
