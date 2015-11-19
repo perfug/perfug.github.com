@@ -7,8 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-Retrouvez les présentations du PerfUG 27 par Philippe Kernevez.
-
+Retrouvez la présentation du PerfUG 27 par Philippe Kernevez.
 Comment ne plus ajouter de RAM à vos jvm sans savoir pourquoi...
 
 <!-- more -->
