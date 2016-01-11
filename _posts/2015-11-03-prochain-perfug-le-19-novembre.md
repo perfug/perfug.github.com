@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 19 novembre"
 description: "Comment ne plus ajouter de RAM à vos JVM sans savoir pourquoi..."
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
