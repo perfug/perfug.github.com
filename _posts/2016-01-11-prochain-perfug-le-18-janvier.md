@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Prochain PerfUG : le 21 janvier"
+title: "Prochain PerfUG : le 18 janvier"
 description: "Comment tester et optimiser la performance d'un SI ?"
 category: annonce-event
 tags: []
