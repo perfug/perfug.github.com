@@ -19,4 +19,4 @@ http://fr.slideshare.net/MarcBojoly/perfug-comment-tester-et-optimiser-la-perfor
 et l'application de démonstration ici :
 [https://github.com/mbojoly/diokles](https://github.com/mbojoly/diokles)
   
-<iframe src="http://perfug.github.io/assets/files/PerfUG28.pdf" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+<iframe src="//fr.slideshare.net/slideshow/embed_code/key/s4r09EhXJULLOd" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
