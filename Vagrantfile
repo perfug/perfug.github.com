@@ -33,7 +33,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.proxy.no_proxy = vagrant_config['proxy']['no_proxy']
 
   ## Configure vagrant
-  config.vm.box = "precise32"
+  config.vm.box = "ubuntu/wily64"
   config.vm.hostname = vagrant_config['vm']['hostname']
   config.vm.network:forwarded_port, guest: 4000, host: vagrant_config['vm']['port']
   config.vm.network:private_network, ip: vagrant_config['vm']['private_ip']
@@ -51,7 +51,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.provision :shell,
     :inline => "sudo apt-get update &&
-                sudo apt-get -y install build-essential git ruby1.9.3 node &&
+                sudo apt-get -y install build-essential git ruby2.2 ruby2.2-dev nodejs &&
+                sudo ln -s -f /usr/bin/gem2.2 /usr/bin/gem &&
                 sudo gem install github-pages --no-ri --no-rdoc"
 
 end
