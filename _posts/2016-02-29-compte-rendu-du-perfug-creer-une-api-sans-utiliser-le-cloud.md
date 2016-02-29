@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Compte rendu du PerfUG : [REX] Créer une API distribuée mondialement sans utiliser (ou presque) le Cloud"
+title: "Compte rendu du PerfUG : REX - Créer une API distribuée mondialement sans utiliser (ou presque) le Cloud"
 description: ""
 category: compte-rendu
 tags: []
 ---
 {% include JB/setup %}
 
-Voici le support de présentation de la 29e session présentée par <a href="https://twitter.com/sylvainutard">Sylvain Utard</a>, VP of Engineering @Algolia. :
+Voici le support de présentation de la 29e session présentée par [Sylvain Utard](https://twitter.com/sylvainutard), VP of Engineering @Algolia. :
 <!-- more -->
 
 
