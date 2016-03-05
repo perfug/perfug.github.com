@@ -30,6 +30,10 @@ excerpt_separator: <!-- more -->  # you can specify your own separator, of cours
 #
 production_url : http://perfug.github.io
 
+# Publish posts with a future date.
+# Default : false (since Jekyll v3.x)
+future: true
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
