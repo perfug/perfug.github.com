@@ -49,10 +49,13 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     v.vmx["numvcpus"] = "#{vagrant_config['vm']['cpu']}"
   end
 
-  config.vm.provision :shell,
-    :inline => "sudo apt-get update &&
-                sudo apt-get -y install build-essential git ruby2.2 ruby2.2-dev nodejs &&
-                sudo ln -s -f /usr/bin/gem2.2 /usr/bin/gem &&
-                sudo gem install github-pages --no-ri --no-rdoc"
+  config.vm.provision "shell",
+    inline: "sudo apt-get update &&
+             sudo apt-get -y install build-essential git ruby2.2 ruby2.2-dev nodejs &&
+             sudo ln -s -f /usr/bin/gem2.2 /usr/bin/gem &&
+             sudo gem install github-pages --no-ri --no-rdoc"
+
+  config.vm.provision "shell", run: "always",
+    inline: "jekyll serve --detach --source /vagrant --host=0.0.0.0"
 
 end
