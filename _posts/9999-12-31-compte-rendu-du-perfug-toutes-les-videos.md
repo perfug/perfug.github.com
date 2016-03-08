@@ -7,9 +7,7 @@ tags: []
 ---
 {% include JB/setup %} 
 
-Voici les vidéos des sessions du perfug:
-Si un problème d'affichage survient, rendez-vous sur la chaîne [Octo TV PerfUG](http://tv.octo.com/channels/#perfug)
+Voici les vidéos des sessions du perfug sur la chaîne [Octo TV PerfUG](http://tv.octo.com/channels/#perfug). 
 <!-- more -->
-
-<iframe src="http://tv.octo.com/channels/#perfug" width="1048" height="2096" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px"></iframe>
-
+Cliquez sur l'image :
+[![Link to OCTO TV Perfug]({{site.url}}/assets/files/tv.octo.com.jpg)](http://tv.octo.com/channels/#perfug){:target="_blank"}
