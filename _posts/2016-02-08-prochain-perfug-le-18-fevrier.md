@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 18 février"
 description: "[REX] Créer une API distribuée mondialement sans utiliser (ou presque) le Cloud"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
