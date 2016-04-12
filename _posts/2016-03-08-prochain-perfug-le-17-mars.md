@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 17 mars"
 description: "Working with the Type Safe Scalding API"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
