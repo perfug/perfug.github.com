@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Compte rendu du PerfUG : HTTP : The Next Generation"
+title: "CR du PerfUG 25 : HTTP : The Next Generation"
 description: ""
 category: compte-rendu
 tags: []
