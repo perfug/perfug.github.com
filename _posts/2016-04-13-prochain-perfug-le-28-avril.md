@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 28 avril"
 description: "Latency, from a dream to nightmare in 100ms"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
@@ -12,5 +12,5 @@ tags: []
 
 Since operating Algolia's servers in 38 different datacenters around the world, we came across various head-scratching events and we’ll share with you the most interesting ones.
 
-[Adam Surak](https://twitter.com/AdamSurak) is DevOps engineer [@algolia](www.algolia.com)
+[Adam Surak](https://twitter.com/AdamSurak) is DevOps engineer [@algolia](https://www.algolia.com)
 Inscriptions : [PerfUG Meetup](http://www.meetup.com/fr-FR/PerfUG/events/230324443/)
