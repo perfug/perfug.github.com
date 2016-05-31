@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 19 mai"
 description: "OutOfMemoryException : Quel est le coût des objets en Java ?"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
