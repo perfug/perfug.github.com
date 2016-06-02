@@ -73,15 +73,6 @@ JB :
   #
   ASSET_PATH : false
 
-  # Temporary fix JB/setup whose variable layout.theme.name is not assigned correctly until Jekyll 3.1.0.
-  #
-  # When github-pages will update Jekyll from 3.0.3 to 3.1.0, replace {{ site.JB.THEME_NAME }} with {{ layout.theme.name }}
-  # in [BASE_PATH]/_includes/JB/setup
-  #
-  # cf: https://github.com/jekyll/jekyll/issues/4439
-  #
-  THEME_NAME : perfug
-
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
