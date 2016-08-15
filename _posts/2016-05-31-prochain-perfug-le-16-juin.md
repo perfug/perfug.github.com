@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 16 juin"
 description: "Guide de survie du développeur perdu dans une application qui rame"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
