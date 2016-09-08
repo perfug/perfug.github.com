@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 25 août"
 description: "GPGPU en .Net"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
