@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 22 septembre"
 description: "WebPerf 2.0"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
