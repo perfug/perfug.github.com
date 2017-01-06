@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Prochain PerfUG : le 12 décembre"
-description: "Couchbase Performance"
+title: "Prochain PerfUG : le 18 janvier"
+description: "Tout ce qu'on ne fait pas pour que Varnish soit performant"
 category: annonce-event
 tags: []
 ---
