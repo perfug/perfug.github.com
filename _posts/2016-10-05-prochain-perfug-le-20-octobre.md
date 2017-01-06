@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 20 octobre"
 description: "HTTP/2 pour (micro) services"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
