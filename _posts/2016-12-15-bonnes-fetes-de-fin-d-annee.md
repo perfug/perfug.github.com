@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : en janvier 2017 !"
 description: "En attendant bonne fêtes de fin d'année à tous !"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
