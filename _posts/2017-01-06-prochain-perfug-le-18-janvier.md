@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 18 janvier"
 description: "Tout ce qu'on ne fait pas pour que Varnish soit performant"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
