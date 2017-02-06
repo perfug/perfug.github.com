@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Prochain PerfUG : le 12 décembre"
+title: "Prochain PerfUG : le 13 février"
 description: "Couchbase Performance"
 category: annonce-event
 tags: []
