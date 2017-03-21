@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 22 mars"
 description: "Patterns de concurrence et performance"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
