@@ -8,7 +8,6 @@ tags: []
 {% include JB/setup %}
 
 Getting the most of your Java applications can be an interesting challenge. Understanding some of the optimizations that the latest crop of JVMs are able to apply when running on the latest servers may help with that. This talk will discuss some of those features and optimizations.
-
 <!-- more -->
 
 Along with discussing some JIT compiler capabilities & issues around the black art of micro-bechmarking, we will take a look at the evolution of Inte-based server platforms, quickly traversing through features that were introduced across the past few years, from Nehalem [55xx], through Broadwell [E-26xx v4] and beyond. We'll highlight the some of the coolest capabilities, discuss new sets of instructions (like AVX2, AVX512, BMI2, TSX, HLE), pipeline improvements, and core counts and topologies. We will then demonstrate some examples of JVM JITs using these capabilities where available, as they adapt the code they generate to the specific processor types they run on.
