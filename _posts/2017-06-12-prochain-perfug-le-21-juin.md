@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 21 juin"
 description: "Java at speed: getting the most out of modern hardware by Gil Tene"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
