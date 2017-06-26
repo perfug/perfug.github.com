@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 14 juin"
 description: "Optimisation de performance sur Datastax Entreprise"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
