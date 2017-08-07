@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 5 juillet"
 description: "Optimisations et Performances d'un POC en prod @ plusieurs millions de requêtes"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
