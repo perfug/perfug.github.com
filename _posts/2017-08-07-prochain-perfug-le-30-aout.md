@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 30 août"
 description: "gRPC, échanges à haute fréquence"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
