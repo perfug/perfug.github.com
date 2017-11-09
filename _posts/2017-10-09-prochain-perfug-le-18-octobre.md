@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 18 octobre"
 description: "Fast by default - rebuilding Algolia's website"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
