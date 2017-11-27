@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 22 novembre"
 description: "Améliorer performance & dis­tribution des apps/vidéos avec Cedexis"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
