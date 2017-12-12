@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 05 décembre"
 description: "Hibernate High-Performance OR Tuning Tips"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
