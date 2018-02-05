@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 17 janvier"
 description: "REX data-warehousing à forte volumétrie avec AWS RedShift"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
