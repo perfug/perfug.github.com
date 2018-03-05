@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 21 février"
 description: "Introduction à Vert.x et retour d'expérience"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
