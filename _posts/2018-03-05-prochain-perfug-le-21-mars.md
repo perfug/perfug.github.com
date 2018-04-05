@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 21 mars"
 description: "Le Disruptor à ABC Arbitrage : une histoire, des patterns"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
