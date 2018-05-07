@@ -7,8 +7,8 @@ tags: []
 ---
 {% include JB/setup %}
 Le traitement d’image représente une partie coûteuse de nombreuses applications logicielles, du Backend Web au Machine Learning. Il est donc souvent nécessaire d’optimiser cette partie du code.
-
 <!-- more -->
+
 Parallélisable, le traitement d’image bénéficie largement des capacités de bande passante mémoire et de calcul des cartes graphiques.
 
 Dans cette présentation nous verrons comment accélérer une librairie de traitement d’image écrite en C# (AForge). Nous commencerons par faire du code multithread CPU, puis nous porterons ce code sur GPU et nous descendrons de plus en plus bas dans la stack logicielle pour arriver à un niveau de performance satisfaisant.
