@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 25 avril"
 description: "CLR/JVM différences d'implémentation"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
