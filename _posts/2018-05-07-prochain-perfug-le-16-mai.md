@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 16 mai"
 description: "Traitement d’image sur GPU en C#"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
