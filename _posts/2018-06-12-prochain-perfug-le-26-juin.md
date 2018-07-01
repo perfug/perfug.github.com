@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 26 juin"
 description: "Spring cloud et Zipkin à la rescousse du tracing distribué"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
