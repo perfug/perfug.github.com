@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 29 août"
 description: "Cluster Hadoop à large échelle chez Criteo"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
