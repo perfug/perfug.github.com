@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Prochain PerfUG : le 19 septembre"
+title: "Prochain PerfUG : le 24 septembre"
 description: "Angular et performances"
 category: annonce-event
 tags: []
