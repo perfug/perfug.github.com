@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 24 septembre"
 description: "Angular et performances"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
