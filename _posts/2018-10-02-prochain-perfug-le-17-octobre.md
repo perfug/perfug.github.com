@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 17 octobre"
 description: "Comprendre les GC sur la JVM : Mode Avancé !"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
