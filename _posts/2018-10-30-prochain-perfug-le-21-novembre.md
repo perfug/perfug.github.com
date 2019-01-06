@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 21 novembre"
 description: "Go(lang) soyez plus fort que le garbage collector grâce l'escape analysis"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
