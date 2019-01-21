@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 16 janvier"
 description: "Its Just Too Slow How to Deliver Fast and Beautiful Images & Video"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
