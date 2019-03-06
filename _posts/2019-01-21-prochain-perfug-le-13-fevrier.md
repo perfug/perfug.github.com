@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 13 février"
 description: "Servir des Maps à haute perf : Concepts, Bottlenecks, Optimisations et Tests à l’échelle"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
