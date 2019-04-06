@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 27 mars"
 description: "Génération de code, moteur Catalyst… Démystifions Apache Spark !"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
