@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Prochain PerfUG : le 15 mai"
-description: "!"
+description: "Remplacer Hive & MongoDB par ScyllaDB : Retour d'expérience Numberly"
 category: old-event
 tags: []
 ---
