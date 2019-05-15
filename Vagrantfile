@@ -17,23 +17,9 @@ if vagrant_config['proxy']['enabled']
 end
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
-  unless Vagrant.has_plugin?("vagrant-vbguest")
-    raise "vagrant-vbguest plugin not installed! Run vagrant plugin install vagrant-vbguest."
-  end
-
-  unless Vagrant.has_plugin?("vagrant-proxyconf")
-    raise "vagrant-proxyconf plugin not installed! Run vagrant plugin install vagrant-proxyconf."
-  end
-
-  ## Configure proxy with vagrant-proxyconf
-  config.proxy.enabled = vagrant_config['proxy']['enabled']
-  config.proxy.http = vagrant_config['proxy']['http']
-  config.proxy.https = vagrant_config['proxy']['https']
-  config.proxy.ftp = vagrant_config['proxy']['ftp']
-  config.proxy.no_proxy = vagrant_config['proxy']['no_proxy']
 
   ## Configure vagrant
-  config.vm.box = "ubuntu/wily64"
+  config.vm.box = "ubuntu/cosmic64"
   config.vm.hostname = vagrant_config['vm']['hostname']
   config.vm.network:forwarded_port, guest: 4000, host: vagrant_config['vm']['port']
   config.vm.network:private_network, ip: vagrant_config['vm']['private_ip']
@@ -51,8 +37,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.provision "shell",
     inline: "sudo apt-get update &&
-             sudo apt-get -y install build-essential git ruby2.2 ruby2.2-dev nodejs &&
-             sudo ln -s -f /usr/bin/gem2.2 /usr/bin/gem &&
+             sudo apt-get -y install build-essential git ruby2.5 ruby2.5-dev nodejs &&
+             sudo ln -s -f /usr/bin/gem2.5 /usr/bin/gem &&
              sudo gem install github-pages --no-ri --no-rdoc"
 
   config.vm.provision "shell", run: "always",
