@@ -7,10 +7,10 @@ tags: []
 ---
 {% include JB/setup %}
 
-Voici le support de présentation de la 63e session présentée par Alexys
+Voici la vidéo de la 63e session présentée par Alexys.
 <!-- more -->
 
 
-Les slides sont disponibles ici : [Perfug #63 : Remplacer Hive & MongoDB par ScyllaDB : Retour d'expérience Numberly](https://vimeo.com/336331219/f8db56b0cc)
+La vidéo est disponible ici : [Perfug #63 : Remplacer Hive & MongoDB par ScyllaDB : Retour d'expérience Numberly](https://vimeo.com/336331219/f8db56b0cc)
 
 
