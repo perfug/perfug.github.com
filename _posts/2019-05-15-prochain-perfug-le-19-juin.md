@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 19 juin"
 description: "Performance : il se passe quoi après le backend ?"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
