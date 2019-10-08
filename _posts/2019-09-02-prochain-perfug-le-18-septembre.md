@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 18 septembre"
 description: "Implémentation de Spring Cache avec Couchbase"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
