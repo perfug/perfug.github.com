@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 23 octobre"
 description: "Les tests de charge en milieu hostile..."
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
