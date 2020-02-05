@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 20 novembre"
 description: "Fine tuning Kafka, allons voir sous le capot !"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
