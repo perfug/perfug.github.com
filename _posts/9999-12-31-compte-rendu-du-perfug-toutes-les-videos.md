@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %} 
 
-Voici les vidéos des sessions du perfug sur la chaîne [Octo TV PerfUG](http://tv.octo.com/channels/#perfug). 
+Voici les vidéos des sessions du perfug sur la chaîne [Octo TV PerfUG](https://octo.ubicast.tv/channels/#perfug). 
 <!-- more -->
 Cliquez sur l'image :
-[![Link to OCTO TV Perfug]({{site.url}}/assets/files/tv.octo.com.jpg)](http://tv.octo.com/channels/#perfug)
+[![Link to OCTO TV Perfug]({{site.url}}/assets/files/octo.ubicast.tv.jpg)](https://octo.ubicast.tv/channels/#perfug)
