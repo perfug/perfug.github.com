@@ -2,7 +2,7 @@
 layout: post
 title: "Prochain PerfUG : le 19 février"
 description: "Les lois universelles de la performance"
-category: annonce-event
+category: old-event
 tags: []
 ---
 {% include JB/setup %}
